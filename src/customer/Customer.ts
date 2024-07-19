@@ -1,8 +1,8 @@
-import { Account } from "../account/Account";
+import { IAccount } from "../interfaces/interfaces";
 import { Person } from "./Person";
 
 export class Customer extends Person {
-  protected accounts: Account[] = []
+  protected accounts: IAccount[] = []
 
   constructor(
     id: number,
@@ -14,20 +14,20 @@ export class Customer extends Person {
     super(id, name, address, phoneNumber, email)
   }
 
-  getAccounts(): Account[] {
+  getAccounts(): IAccount[] {
     return [...this.accounts]
   }
 
-  openAccount(account: Account): void {
+  openAccount(account: IAccount): void {
     this.accounts.push(account)
     console.log(`Account ${account.accountNumber} created successfully!`)
   }
 
-  closeAccount(account: Account): void {
+  closeAccount(account: IAccount): void {
     this.accounts = this.accounts.filter(ac => ac !== account)
     console.log(`Account ${account.accountNumber} successfully deleted!`)
   }
-  
+
   getRole(): string {
     return "Customer";
   }

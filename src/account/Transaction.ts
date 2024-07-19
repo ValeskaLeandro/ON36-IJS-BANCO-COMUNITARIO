@@ -1,9 +1,9 @@
-import { Account } from "./Account";
+import { IAccount } from "../interfaces/interfaces";
 
 export default class Transaction{
   constructor(
     public transactionId: number,
-    public account: Account,
+    public account: IAccount,
     public amount: number,
     public date: Date,
     public type: string
