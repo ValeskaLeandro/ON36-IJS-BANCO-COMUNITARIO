@@ -1,0 +1,18 @@
+[
+  {
+    "accountNumber": "835060",
+    "customerId": 1,
+    "accountType": "current",
+    "accountStatus": "active",
+    "balance": 1000,
+    "overdraftLimit": 700
+  },
+  {
+    "accountNumber": "470111",
+    "customerId": 2,
+    "accountType": "savings",
+    "accountStatus": "active",
+    "balance": 650,
+    "interestRate": 10
+  }
+]
