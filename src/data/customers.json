@@ -1,0 +1,41 @@
+[
+  {
+    "id": "52a1b97d-ead8-4904-9262-eee9d4b7fc36",
+    "name": "Márcio Coelho",
+    "cpf": "123456789",
+    "phone": "859999-8888",
+    "email": "mariadocarmo@gmail.com",
+    "address": "Rua das flores, 66",
+    "enrollment": "987238173",
+    "IES": "UFC",
+    "accounts": [],
+    "accessionDate": "2024-07-26T00:52:30.704Z",
+    "manager": "João da Silva"
+  },
+  {
+    "id": "5bf2e3d8-4fdc-40b4-94a1-18777d0e2acd",
+    "name": "Paulo Viana",
+    "cpf": "123456789",
+    "phone": "859999-8888",
+    "email": "paulo@gmail.com",
+    "address": "Rua das flores, 66",
+    "enrollment": "987238173",
+    "IES": "UFC",
+    "accounts": [],
+    "accessionDate": "2024-07-27T00:07:28.419Z",
+    "managerId": 1
+  },
+  {
+    "id": "1ac6fdd0-e926-493b-9e1f-f90d35d4e36b",
+    "name": "Joana",
+    "cpf": "123456789",
+    "phone": "859999-8888",
+    "email": "joana@gmail.com",
+    "address": "Rua das flores, 66",
+    "enrollment": "987238173",
+    "IES": "UFC",
+    "accounts": [],
+    "accessionDate": "2024-07-27T00:08:00.808Z",
+    "managerId": 3
+  }
+]

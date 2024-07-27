@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "João da Silva",
+    "customers": [
+      "5bf2e3d8-4fdc-40b4-94a1-18777d0e2acd"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Júlia",
+    "customers": [
+      "1ac6fdd0-e926-493b-9e1f-f90d35d4e36b"
+    ]
+  }
+]
